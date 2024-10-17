@@ -1,0 +1,15 @@
+.News_catogaries{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(205, 204, 204);
+    border-radius: 15px;
+}
+.News_catogaries p{
+    font-weight:bold ;
+    cursor: pointer;
+    padding: 1%;
+}
+.News_catogaries p:hover{
+    background-color: rgb(185, 185, 243);
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+.NewsArea{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+}
+.Trending-Heading{
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.Trending-Heading h2{
+    font-size: large;
+    font-weight: bold;
+}
+
+/* News cards design  */
+.Newscards-container{
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 100%;
+}
+.NewsCards{
+    display: flex;
+    margin-top: 1%;
+    width: 95%;
+    box-shadow: 0px 0px 10px #555;
+    border-radius:0.5rem ;
+}
+.NewsImage{
+    width: 250px;
+    height: 25vh;
+    object-fit: fill;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+
+}
+.News-Content{
+    margin-left: 1%;
+    width: 100%;
+}
