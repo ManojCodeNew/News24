@@ -4,8 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
-  height: 400px;
+  width: 90%;
+  max-width: 800px;
+  height: 60vw;
+  max-height: 400px;
 }
 /* Slider Image design */
 .slide{

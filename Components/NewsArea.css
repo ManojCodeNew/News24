@@ -14,9 +14,9 @@
 
 /* News cards design  */
 .Newscards-container{
-  margin-top: 2%;
-  margin-left: 2%;
+  margin: 3%;
   height: 100%;
+  overflow: auto;
 }
 .NewsCards{
     display: flex;

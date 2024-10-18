@@ -13,7 +13,7 @@ function App() {
 <NavBar/>
 <BreakingNews/>
 <Main/>
-<Footer/>
+{/* <Footer/> */}
 {/* </div> */}
 
 </>

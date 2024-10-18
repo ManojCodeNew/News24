@@ -1,16 +1,201 @@
 {
     "News":[
         {
-            "src":"https://images.indianexpress.com/2023/08/NRC.jpg?w=640",
-            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966."
+            "src":"https://picsum.photos/seed/img5/600/400",
+            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966.",
+            "gener":"trending"
         },
         {
             "src":"https://images.indianexpress.com/2024/10/Opinion4_17th-Oct.jpg?w=640",
-            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge."
+            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge.",
+            "gener":"trending"
         },
         {
             "src":"https://images.indianexpress.com/2024/10/AirArabia_LEAD_b819ef.jpg?w=640",
-            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!"
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"trending"
+        },
+        {
+            "src":"https://images.indianexpress.com/2023/08/NRC.jpg?w=640",
+            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966.",
+            "gener":"ರಾಜ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img10/600/400",
+            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge.",
+            "gener":"ರಾಜ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img11/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ರಾಜ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img12/600/400",
+            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966.",
+            "gener":"ರಾಜ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img13/600/400",
+            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge.",
+            "gener":"ರಾಜ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img14/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ರಾಜ್ಯ"
+        },
+
+        {
+            "src":"https://picsum.photos/seed/img15/600/400",
+            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966.",
+            "gener":"ದೇಶ ವಿದೇಶ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img16/600/400",
+            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge.",
+            "gener":"ದೇಶ ವಿದೇಶ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img17/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ದೇಶ ವಿದೇಶ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img18/600/400",
+            "content":"In a landmark ruling, the Supreme Court on Thursday upheld the constitutional validity of Section 6A of the Citizenship Act, 1955, which granted citizenship to immigrants who entered Assam before January 1, 1966.",
+            "gener":"ದೇಶ ವಿದೇಶ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img19/600/400",
+            "content":"Last month, Prime Minister Narendra Modi announced a $500 billion (Rs 4.20 lakh crore) target for electronics manufacturing in India by 2030. We must applaud and support the ambition — growth in electronics manufacturing will help solve India’s jobs challenge.",
+            "gener":"ದೇಶ ವಿದೇಶ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img20/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ನಮ್ಮ ಕರ್ನಾಟಕ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img21/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ನಮ್ಮ ಕರ್ನಾಟಕ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img22/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ನಮ್ಮ ಕರ್ನಾಟಕ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img23/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕ್ರೀಡೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img24/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕ್ರೀಡೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img25/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕ್ರೀಡೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img26/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಆರ್ಥಿಕ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img27/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಆರೋಗ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img28/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಆರೋಗ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img29/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಆರೋಗ್ಯ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img30/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕಾನೂನುಮಾಹಿತಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img31/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕಾನೂನುಮಾಹಿತಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img32/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕಾನೂನುಮಾಹಿತಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img33/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮನೋರಂಜನೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img34/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮನೋರಂಜನೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img35/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮನೋರಂಜನೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img36/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಶಿಕ್ಷಣ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img37/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಶಿಕ್ಷಣ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img38/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಶಿಕ್ಷಣ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img39/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕೃಷಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img40/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕೃಷಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img41/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಕೃಷಿ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img42/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮಾರುಕಟ್ಟೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img43/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮಾರುಕಟ್ಟೆ"
+        },
+        {
+            "src":"https://picsum.photos/seed/img44/600/400",
+            "content":"One week left for Air Arabia super seat sale. Limited seats are still available from just INR 5,727!",
+            "gener":"ಮಾರುಕಟ್ಟೆ"
         }
+
     ]
 }

@@ -1,11 +1,15 @@
 body {
     margin: 0;
-    padding: auto;
+    padding: 0;
     border: none;
 }
 
 .NavBar-container {
     display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 8px rgb(24, 24, 24);
 }
 
 .NavBar-logo {
@@ -22,9 +26,13 @@ body {
 }
 .NavBar-logo span {
     font-size:larger;
-    color: #00aaff;
+    color: #02a9fd;
 }
 
+.NavBar-avertisement{
+    text-align: center;
+    flex-grow: 1;
+}
 .NavBar-avertisement img {
     margin-left: 20%;
     margin-top: 10px;

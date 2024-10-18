@@ -11,7 +11,7 @@ export default function ImageSlider({ SlideImages }) {
     useEffect(() => {
         const interval = setInterval(() => {
             setSlide((prevSlide) => (prevSlide === Images.length - 1 ? 0 : prevSlide + 1));
-        }, 2000);
+        }, 5000)
         return () => clearInterval(interval);
     }, [Images.length])
     // Right Arrow click
