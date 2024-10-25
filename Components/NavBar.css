@@ -7,15 +7,13 @@ body {
 .NavBar-container {
     display: flex;
     align-items: center;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     flex-wrap: wrap;
     box-shadow: 0px 0px 8px rgb(24, 24, 24);
 }
 
-.NavBar-logo {
-    width: 20%;
-    text-align: left;
-
+.NavBar-logo{
+    cursor: pointer;
 }
 
 .NavBar-logo h1 {
@@ -23,6 +21,15 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: black;
+}
+@media (max-width:600px){
+    .NavBar-logo h1{
+        font-size: 20px;
+        /* background-color: red; */
+    }
+    .NavBar-logo span{
+        font-size: 24px;
+    }
 }
 .NavBar-logo span {
     font-size:larger;
@@ -36,7 +43,7 @@ body {
 .NavBar-avertisement img {
     margin-left: 20%;
     margin-top: 10px;
-    width: 50vw;
-    height: 12vh;
+    width: 40vw;
+    height: 8vh;
     object-fit:cover;
 }

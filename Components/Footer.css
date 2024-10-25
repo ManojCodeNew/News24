@@ -1,38 +1,62 @@
-.Footer-container{
-    height: 50vh;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.899);
+body{
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+   
 }
-.Footer-about{
+.footer-container {
+    padding: 20px;
+    text-align: center;
     position: relative;
-    top: 30vh;
-    left: 25vw;
-    width: 50vw;
+    color: #fffefe;
+    /* padding: 20px; */
+    background-color: black;
+
+}
+.about {
+    width: 30vw;
+    padding: 10px ;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.about img {
+  margin-left: 10px;
+  width: 10vw;
+  height: 5vh;
+  object-fit:fill;
+  /* border-radius: 100%; */
+}
+@media (max-width:600px){
+    .about img{
+        width: 80px;
+        height: 40px;
+    }
+     .about{
+        margin: 1px auto;
+        width: 50vw;
+     }
+}
+.socialMediaLogo {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    gap: 10px;
+    padding: 10px;
 }
-.Footer-about img{
-    width: 15vw;
-}
-.Footer-address{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1%;
-}
-.social_media-icons{
-   display: flex;
-   justify-content: space-evenly;
-   /* background-color: aliceblue; */
-}
-.social_media-icons img{
-    background-color: rgba(255, 255, 255, 0.955);
+.socialMediaLogo img{
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
     border-radius: 100%;
-    padding: 2%;
-    margin-left: 10px;
-    width: 60%;
-    height: 50%;
+    cursor: pointer;
+}
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
 }

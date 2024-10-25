@@ -4,10 +4,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  max-width: 800px;
-  height: 60vw;
-  max-height: 400px;
+  width: 50vw;
+  height: 50vh;
+
+}
+@media (max-width:768px){
+  .ImageSlider-container{
+    width: 90vw;
+    height: 35vh;
+
+  }
 }
 /* Slider Image design */
 .slide{
@@ -51,8 +57,8 @@ cursor: pointer;
 }
 .indicator{
   background-color: white;
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 0.5rem;
+  width: 0.5rem;
   border-radius: 100%;
   border: none;
   outline: none;

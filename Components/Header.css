@@ -1,5 +1,12 @@
-.DateTime{
-    color: white;
-    text-align: center;
-    background: #000;
+.DateTime {
+  color: white;
+  text-align: center;
+  background: #000;
+}
+@media (max-width: 768px) {
+  .DateTime {
+    height: 3vh;
+    font-size: small;
+    padding: 2px auto;
+  }
 }

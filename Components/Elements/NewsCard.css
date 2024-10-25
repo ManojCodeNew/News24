@@ -1,41 +1,212 @@
+.newsCard-contaner {
+  margin: 2px auto;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1%;
+  overflow: auto;
+  box-shadow: 0px 0px 10px gray;
+}
 
-.NewsCard-container{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr;
-    gap: 10px;
-    border: 1px solid rgb(159, 157, 157);
-    border-radius: 10px;
-    padding: 10px;
+.card1 {
+  grid-column: span 2;
+  grid-row: span 3;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* background-color: rgb(185, 185, 185); */
+  border-radius: 10px;
+}
+.content-container-large {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 70%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+.headline-large {
+  font-weight: bold;
+  font-size: 18px;
+}
+.category-large {
+  background-color: red;
+  padding: 1%;
+  border-radius: 5px;
+  display: inline-block;
+}
+.card1 img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card2 img {
+  width: 35%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 8px;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+  border-radius: 10px;
+  background-color: rgb(223, 223, 223);
+  height: 20vh;
+  /* box-sizing: border-box; */
+}
+.content-container {
+  margin-left: 3%;
+  height: 100%;
+}
+
+.headline {
+  margin-top: 1px;
+  font-weight: bold;
+}
+.date {
+  color: gray;
+  font-size: small;
+}
+.category {
+  display: inline-block;
+  background-color: rgb(20, 109, 210);
+  color: white;
+  margin-top: 10px;
+  padding: 1%;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+
+/* Make Resoponsive */
+@media (max-width: 768px) {
+  .newsCard-contaner {
+    grid-template-columns: 1fr;
+    width: 98%;
+    padding: 0;
+  }
+  .content-container-large {
+    width: 80%;
+    height: wrap;
+  }
+  .card1 {
+    grid-column: span 1;
     height: auto;
-    margin: 30px;
-    box-shadow: 0px 0px 10px #555;
-    /* It make object center  */
-    /* margin: 20px auto; */
-}
-@media (max-width:600px){
-    .NewsCard-container{
-        grid-template-columns: 1fr;
-        height: auto;
-    }
-
-}
-
-.news-Img{
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    background-color: aqua;
-    height: auto;
-
-}
-.news-Img img{
-    width: 100%;
-    max-height: 30vh;
-    border-radius: 10px;
+  }
+  .card1 img {
+    height: 100%;
     object-fit: cover;
-    height: auto;
+  }
+
+  .card2 img {
+    width: 50%;
+    height: 80%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  /* .content-container{
+      margin-left: 0;
+    }
+    .content-container-large{
+      position: static;
+      width: 100%;
+    } */
 }
-.news-content{
-    border-radius: 10px;
+@media (max-width: 480px) {
+  .newsCard-container {
+    grid-template-columns: 1fr; /* Single column for smaller mobile screens */
+    width: 100%;
+    gap: 10px;
+  }
+
+  .card1,
+  .item2 {
+    width: 100%; /* Ensure full width */
+  }
+
+  .card1 img,
+  .item2 img {
+    width: 100%; /* Ensure images take up full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0px;
+  }
+
+  .item2 {
+    border-radius: 0px;
+  }
+
+  .content-container {
+    margin-left: 3%;
+  }
+  .content-container-large {
+    width: fit-content;
+  }
+  .category {
+    font-size: 0.5rem; /* Adjust category font size */
+  }
+
+  .headline {
+    font-size: 1rem; /* Adjust headline font size */
+  }
+
+  .date {
+    font-size: 0.8rem; /* Adjust date font size */
+  }
+}
+
+/* Tablets and medium size */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .newsCard-contaner {
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+  }
+
+  .card1 {
+    grid-column: span 2;
     height: auto;
+  }
+
+  .card1 img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .card2 {
+    height: 18vh;
+    padding: 2%;
+  }
+
+  .card2 img {
+    width: 45%;
+    height: 100%;
+  }
+
+  .content-container-large {
+    width: 75%;
+    padding: 10px;
+  }
+
+  .headline-large {
+    font-size: 16px;
+  }
+
+  .category-large {
+    font-size: 14px;
+  }
+  .content-container {
+    margin-left: 3%;
+    height: fit-content;
+  }
+  .category {
+    font-size: 0.8rem;
+  }
+  .headline {
+    font-size: 0.9rem;
+  }
 }

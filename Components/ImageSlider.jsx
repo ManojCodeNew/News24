@@ -27,7 +27,7 @@ export default function ImageSlider({ SlideImages }) {
 
     return (
         <div className="ImageSlider-container">
-            <BsArrowLeftCircleFill className='arrow arrow-Left' onClick={prevSlide} />
+            <BsArrowLeftCircleFill className='arrow-Left arrow' onClick={prevSlide} />
             {
                 Images.map((img, index) => {
                     return (
@@ -39,7 +39,7 @@ export default function ImageSlider({ SlideImages }) {
                     )
                 })
             }
-            <BsArrowRightCircleFill className='arrow arrow-Right' onClick={nextSlide} />
+            <BsArrowRightCircleFill className='arrow-Right arrow' onClick={nextSlide} />
 
             <span className='indicators'>
                 {
