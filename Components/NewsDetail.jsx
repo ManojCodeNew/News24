@@ -6,12 +6,10 @@ import NewsCard from './Elements/NewsCard';
 import { useNavigate, NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setNewsDetail } from './Redux/NewsDetailSlice'
-
+import RelatedNews from './Elements/RelatedNews.jsx'
 
 export default function NewsDetail() {
     const newsId = useSelector((state) => state.news.newsId);
-    // const navigate = useNavigate();
-    // newsId===null?navigate("/"):alert("hai");
     const ClickedNews = NewsData.News[newsId] ;
     const dispatch = useDispatch();
 
@@ -59,7 +57,7 @@ export default function NewsDetail() {
                                             window.location.href = "#NewsDetailsContainer";
                                         }
                                         }> 
-                                        {/* <NewsCard Imgsrc={item.src} content={item.content} index={index} /> */}
+                                        <RelatedNews Imgsrc={item.src} content={item.content} index={index} />
                                         </NavLink>
 
 

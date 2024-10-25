@@ -12,7 +12,7 @@ export default function NavBar() {
                 <h1>NEWS<span>24</span></h1>
             </div>
             <div className="NavBar-avertisement">
-                <img src={add} alt="advertisement" />
+                <img src="https://indianmediastudies.com/wp-content/uploads/2023/11/what-is-advertising-copy.jpeg" alt="advertisement" />
             </div>
         </div>
     </>

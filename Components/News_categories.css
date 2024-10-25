@@ -14,21 +14,27 @@
     font-weight:bold ;
     cursor: pointer;
     padding: 1%;
-    
+    position: relative;
 }
-/* .News_catogaries p::before{
+.News_catogaries p::before{
     content: "";
     position: absolute;
-    width: 0;
-    height: 3px;
-    background-color: blue;
-    bottom: 0;
     left: 0;
-    transition: width 0.3s ease;
-} */
-.News_catogaries p:hover{
-    color: blue;
+    right: 0;
+    bottom: 0;
+    /* width: ; */
+    height: 3px;
+    background-color: rgb(3, 32, 251);
+    transition: transform 0.2s linear;
+transform: scaleX(0);
 }
+.News_catogaries p:hover::before
+{
+transform: scaleX(1);
+}
+/* .News_catogaries p:hover{
+    color: blue;
+} */
 /* .News_catogaries p:hover::after{
     width: 100%;
 } */
