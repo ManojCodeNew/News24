@@ -45,22 +45,15 @@
   height: 500px;
   object-fit: cover;
   border-radius: 10px;
-  /* transition: transform 0.5s ease-in-out; */
 }
-/* .card1 img:hover{
-  transform: scale(1.2);
-} */
+
 .card2 img {
   width: 35%;
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  /* transition: transform 0.5s ease-in-out; */
-
 }
-/* .card2 img:hover{
-  transform: scale(1.2);
-} */
+
 .card2 {
   display: flex;
   align-items: center;
@@ -88,9 +81,10 @@
   background-color: rgb(20, 109, 210);
   color: white;
   margin-top: 10px;
-  padding: 1%;
+  padding: 2%;
   border-radius: 5px;
   font-size: 12px;
+  font-weight: 100;
 }
 
 /* Make Resoponsive */
@@ -119,26 +113,20 @@
     border-radius: 8px;
     margin-bottom: 10px;
   }
-  /* .content-container{
-      margin-left: 0;
-    }
-    .content-container-large{
-      position: static;
-      width: 100%;
-    } */
 }
+/* Mobile device */
 @media (max-width: 480px) {
   .newsCard-container {
-    grid-template-columns: 1fr; /* Single column for smaller mobile screens */
+    grid-template-columns: 1fr;
     width: 100%;
     gap: 10px;
   }
 
-  .card1 img{
+  .card1 img {
     width: 100%;
   }
   .card2 img {
-    width: 35vw; 
+    width: 35vw;
     border-radius: 10px;
   }
 
@@ -153,21 +141,36 @@
     width: fit-content;
   }
   .category {
-    font-size: 0.5rem;
+    font-weight: bold;
+    font-size: 0.6rem;
   }
 
   .headline {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
-.date-large{
-  font-size: 0.5rem;
-}
-.category-large{
-  font-size: 0.9rem;
-}
+  .date-large {
+    font-size: 0.5rem;
+  }
+  .category-large {
+    font-size: 0.9rem;
+  }
   .date {
     font-size: 0.8rem;
   }
+}
+@media (max-width: 932px) {
+
+  .card2 {
+    border-radius: 0px;
+    /* background-color: aqua; */
+    height: 10vh;
+  }
+
+  .content-container {
+    margin-left: 3%;
+    height: fit-content;
+  }
+  
 }
 
 /* Tablets and medium size */
@@ -211,12 +214,62 @@
   }
   .content-container {
     margin-left: 3%;
-    height: fit-content;
   }
   .category {
     font-size: 0.8rem;
   }
   .headline {
     font-size: 0.9rem;
+  }
+}
+@media (max-width: 844px) {
+  .content-container {
+    height: fit-content;
+  }
+  .headline {
+    font-size: small;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .category{
+    font-weight: 400;
+    padding: 3%;
+
+  }
+}
+
+@media (max-width: 740px) {
+  .content-container {
+    height: fit-content;
+  }
+  .category {
+  }
+  .headline {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1368px) {
+  .content-container {
+    height: fit-content;
+  }
+
+  .category {
+  }
+  .headline {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .card2{
+    height: fit-content;
+  }
+  .card2 img {
+    height: 50%;
   }
 }

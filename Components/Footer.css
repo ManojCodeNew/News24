@@ -1,62 +1,97 @@
-body{
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    box-sizing: border-box;
-   
+body {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
 }
 .footer-container {
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    color: #fffefe;
-    /* padding: 20px; */
-    background-color: black;
-
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  color: #fffefe;
+  /* padding: 20px; */
+  background-color: black;
+}
+.footer-sections {
+  display: flex;
 }
 .about {
-    width: 30vw;
-    padding: 10px ;
-    border-radius: 10px;
-    outline: none;
-    margin-bottom: 20px;
+  width: 30vw;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
 }
 .about img {
   margin-left: 10px;
   width: 10vw;
   height: 5vh;
-  object-fit:fill;
+  object-fit: fill;
   /* border-radius: 100%; */
 }
-@media (max-width:600px){
-    .about img{
-        width: 80px;
-        height: 40px;
-    }
-     .about{
-        margin: 1px auto;
-        width: 50vw;
-     }
-}
-.socialMediaLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-}
-.socialMediaLogo img{
-    background-color: rgb(255, 255, 255);
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    border-radius: 100%;
-    cursor: pointer;
+.popularNews {
+  /* display: flex; */
+  width: 30vw;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-.copyright{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 20px;
-    font-size: 14px;
+.categories{
+  width: 30vw;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.items{
+  justify-content: center;
+  align-items: center;
+  /* text-align: left; */
+}
+
+@media (max-width: 600px) {
+  .about img {
+    width: 80px;
+    height: 40px;
+  }
+  .about {
+    margin: 1px auto;
+    width: 50vw;
+  }
+}
+.socialMediaLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.socialMediaLogo img {
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+@media(max-width:468px){
+
+  .popularNews{
+    display: none;
+  }
+
+  .categories{
+    display: none;
+  }
+}
+
+.NavigateToAdmin{
+  text-decoration: none;
+  color: white;
 }

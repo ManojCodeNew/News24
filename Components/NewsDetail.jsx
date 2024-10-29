@@ -6,16 +6,19 @@ import NewsCard from './Elements/NewsCard';
 import { useNavigate, NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setNewsDetail } from './Redux/NewsDetailSlice'
-import RelatedNews from './Elements/RelatedNews.jsx'
+import RelatedNews from './Elements/RelatedNews.jsx';
+import Breaking_news from './Breaking_news';
+import Footer from './Footer.jsx';
+
 
 export default function NewsDetail() {
     const newsId = useSelector((state) => state.news.newsId);
-    const ClickedNews = NewsData.News[newsId] ;
+    const ClickedNews = NewsData.News[newsId];
     const dispatch = useDispatch();
 
     return (
         <>
-
+            <Breaking_news />
             <div className='NewsDetail-container' id='NewsDetailsContainer'>
                 <div className="NewsDetail-mainContent">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorum consequatur aliquid laudantium deleniti iusto numquam ab sequi suscipit unde voluptates, id quaerat quia possimus voluptas repellat fugiat impedit ut!</h2>
@@ -51,14 +54,14 @@ export default function NewsDetail() {
 
                                 return (
 
-                                    <NavLink to='/NewsDetails' className='NavigationLink'  // Stote clicked News detail on redux store
+                                    <NavLink to='/NewsDetails' className='NavigationLink'
                                         onClick={() => {
                                             dispatch(setNewsDetail({ newsId: index }));
                                             window.location.href = "#NewsDetailsContainer";
                                         }
-                                        }> 
+                                        }>
                                         <RelatedNews Imgsrc={item.src} content={item.content} index={index} />
-                                        </NavLink>
+                                    </NavLink>
 
 
                                 )
@@ -69,6 +72,7 @@ export default function NewsDetail() {
                     }
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

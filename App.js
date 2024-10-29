@@ -6,25 +6,23 @@ import NewsDetail from './Components/NewsDetail';
 import { Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './Components/Redux/store';
+import AdminPanel from './Components/AdminPanel/AddPost.jsx';
+
 function App() {
   return (
     <>
 
-      <Header />
-
-      {/* <div className='Main-container'> */}
-      <NavBar />
       <Provider store={store}>
+        <Header />
+
+        <NavBar />
         <Routes>
-          <Route path='/' element={<Main />} />
+          <Route path='/Home' element={<Main />} />
           <Route path='/NewsDetails' element={<NewsDetail />} />
         </Routes>
-      {/* <NewsCard /> */}
-      {/* <GridBox category="ರಾಜ್ಯ"/> */}
 
       </Provider>
 
-      {/* </div> */}
 
     </>
   );

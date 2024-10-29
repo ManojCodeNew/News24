@@ -1,45 +1,123 @@
 
 .NewsCard-container{
     display: grid;
-    grid-template-columns: 0.5fr 2fr;
-    gap: 10px;
-    border: 1px solid rgb(159, 157, 157);
+    grid-template-columns: 0.6fr 1fr;
+    
+    /* border: 1px solid rgb(159, 157, 157); */
     border-radius: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     height: auto;
-    margin: 30px;
-    box-shadow: 0px 0px 10px #555;
+    margin: 10px;
+    /* box-shadow: 0px 0px 10px #555; */
+    /* background-color: #dbdbdb; */
     /* It make object center  */
     /* margin: 20px auto; */
 }
-@media (max-width:600px){
-    .NewsCard-container{
-        grid-template-columns: 1fr;
-        height: auto;
-    }
 
-}
 
 .news-Img{
     border-radius: 10px;
     display: flex;
-    justify-content: center;
-    background-color: rgb(210, 209, 209);
-    height: auto;
+    /* justify-content: center; */
+    background-color: rgb(249, 248, 248);
+    width: 100%;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
 
 }
 .news-Img img{
     width: 100%;
-    max-height: 30vh;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
-    height: auto;
+    background-color: rgb(137, 156, 172);
 }
 .news-content{
     border-radius: 10px;
     height: auto;
+    width: auto;
+    margin-left: 1%;
 }
 .newsPostedDate{
     color: #555;
     font-size: small;
+    text-align:start;
 }
+@media (max-width:360px){
+    .NewsCard-container{
+        grid-template-columns: 1fr;
+        /* background-color: aqua; */
+        height: auto;
+    }
+    .news-Img img{
+        /* padding: 20%; */
+        height: 100%;
+        /* width: 100vw  ; */
+    }
+
+}
+
+@media (max-width:468px){
+    .NewsCard-container{
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+    .news-Img img{
+        height: 100%;
+    }
+
+}
+@media (max-width:768px){
+    .NewsCard-container{
+        height: auto;
+        align-items: center;
+    }
+    .news-Img{
+        height: fit-content;
+    }
+    .news-Img img{
+        height: fit-content;
+    }
+    .news-content{
+        margin-left: 4%;
+    }
+
+}
+
+@media (max-width:1180px){
+    .NewsCard-container{
+        margin: 5%;
+        height: auto;
+        align-items: center;
+    }
+    .news-Img{
+        height: fit-content;
+    }
+    .news-Img img{
+        height: fit-content;
+    }
+    .news-content{
+        margin-left: 4%;
+    }
+
+}
+@media (max-width:540px){
+    .NewsCard-container{
+        margin: 2% auto;
+        width: 80%;
+        height: auto;
+        align-items: center;
+    }
+    .news-Img{
+        height: fit-content;
+    }
+    .news-Img img{
+        height: fit-content;
+    }
+    .news-content{
+        margin-left: 4%;
+    }
+
+}
+

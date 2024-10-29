@@ -11,9 +11,9 @@ export default function NewsCard({Imgsrc,content,index}) {
                     />
                 </div>
                 <div className='news-content'>
-                    <p>{content}...</p>
-                </div>
+                    <p>{content.slice(0,40)}...</p>
                 <div className='newsPostedDate'>10/01/2024</div>
+                </div>
             </div>
         </div>
     )

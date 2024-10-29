@@ -53,5 +53,5 @@ export default function News_categories() {
       }
 
     </>
-  )
+  ) 
 }
